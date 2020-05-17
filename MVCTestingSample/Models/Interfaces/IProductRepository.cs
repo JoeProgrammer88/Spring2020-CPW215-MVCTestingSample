@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace MVCTestingSample.Models.Interfaces
 {
-    interface IProductRepository
+    public interface IProductRepository
     {
         Task<Product> GetProductByIdAsync(int id);
 
